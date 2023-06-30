@@ -3,14 +3,58 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: bisque;
+  display:grid;
 }
 
-h1,
+/*Heading and title elements here*/
+header {
+
+background-color: grey;
+margin-bottom: -20px; 
+margin-top: -10px;
+padding: -20px;
+}
+
+
+h1 {
+  display: flex;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48pt;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+nav {
+
+  background-color: darkgrey;
+  margin-bottom: 0;
+}
+
+a {
+  display:inline-flex;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 10px;
+  border: 0px
+
+}
+
+.hero-banner {
+  background-image: url(../images/02-hero-bg-resize3.jpg);
+  padding: 30px;
+}
+
+
+
 h2,
+
 h3,
 h4,
 h5,
