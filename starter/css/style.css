@@ -7,53 +7,69 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: bisque;
+  background-color: whitesmoke;
   display:grid;
 }
 
 /*Heading and title elements here*/
 header {
+ display: flex;
+background-color: rgb(184, 176, 176);
+margin-bottom: 0px; 
+margin-top: -20px;
+padding: -30px;
 
-background-color: grey;
-margin-bottom: -20px; 
-margin-top: -10px;
-padding: -20px;
 }
 
 
 h1 {
-  display: flex;
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48pt;
-  margin-left: 10px;
-  justify-content: center;
-}
+  padding: 10px;
+  margin-right: 30px;
+  background-color:rgb(75, 74, 73);
 
-nav {
 
-  background-color: darkgrey;
-  margin-bottom: 0;
+  
 }
 
 a {
-  display:inline-flex;
-  color: yellow;
+
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0px;
-  margin: 10px;
-  border: 0px
+  color: rgb(40, 36, 36);
+  font-;
+  font-size: 18pt;
+  padding: 15px;
+  margin-top: 65px;
+  margin-right: 30px;
+  margin-left: 30px;
+  justify-content: flex-end;
+}
+  
+#hero-banner {
 
+  background-image: url(../images/02-hero-bg-cropped.jpg);
+  background-size: 100%;
+  padding:100px;
 }
 
-.hero-banner {
-  background-image: url(../images/02-hero-bg-resize3.jpg);
-  padding: 30px;
+h2 {
+  display: flex;
+ justify-content: flex-end;
+ margin-top: 100px;
+ padding:0;
+background-color: blueviolet;
 }
 
 
+.page-wrapper {
 
-h2,
+  display:grid;
+
+  
+}
+
 
 h3,
 h4,
