@@ -14,10 +14,11 @@ body {
 /*Heading and title elements here*/
 header {
  display: flex;
-background-color: rgb(184, 176, 176);
+background-color: blueviolet;
 margin-bottom: 0px; 
 margin-top: -20px;
 padding: -30px;
+border-bottom-style: dashed;
 
 }
 
@@ -34,7 +35,7 @@ h1 {
 .page-links {
 
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(40, 36, 36);
+  color:white;
   font-size: 16pt;
   text-decoration: underline;
   text-decoration-thickness: 7px;
@@ -50,6 +51,8 @@ h1 {
   background-image: url(../images/02-hero-bg-cropped.jpg);
   background-size: 100%;
   padding:100px;
+  border-bottom-style:dotted;
+ 
 }
 
 h2 {
@@ -59,6 +62,8 @@ h2 {
   margin-top: 100px;
   background-color: blueviolet;
   font-size: 42pt;
+  margin-left: 1000px;
+  
 }
 
 /*main page grid elements*/
@@ -98,30 +103,27 @@ font-size: 36pt;
  justify-content: flex-start;
  }
 
-#card {
+.grid-container {
 
-  display: inline-block;
-  width: 25%;
-  padding: 0;
+  display: grid;
+  width: 750px;
+  height: 600px;
+  grid-template-columns: auto,auto;
+  grid-template-rows: auto, auto, auto;
+}
 
+
+#grid-item {
+  display: block;
+  width: 40%;
+  
 
 }
 
-.portfolio-link-gallery {
-   display: grid;
-   width: 100;
- grid-template-columns: 1fr,1fr,1fr;
-    grid-template-rows: 1fr,1fr,1fr;
-    grid-template-areas: auto;
-          
-   justify-content: center;  
-      
-        
-      }
 
 img {
   border: 4px solid rgb(156, 156, 240);
-  
+
 
 }
 
