@@ -246,7 +246,58 @@ padding:5px;
   color: r;
 }
 
-@media (min-width:600px) {
+@media only screen and (max-width:768px) {
 
+  body {
+
+    background-color: aqua;
+    
+  }
+
+  header {
+
+   float:left;
+   width: 100%;
+
+  }
+
+  .page-links {
+
+    float: left;
+    width: 100%;
+    
+  }
+
+  .h2{
+    display: none;
+  }
+
+
+  .profile-pic {
+
+    display: none;
+  }
+
+  .work-title {
+    display: none;
+  }
+
+  .grid-container {
+
+    float: left;
+    width: 100%;
+  }
+  
+
+.contact-me {
+
+ display: none;
+}
+
+  .contact-links {
+    display: column;
+    
+    padding: 10;
+  }
 
 }
